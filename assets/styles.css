@@ -1,0 +1,26 @@
+*{
+    background-color: darkgray;
+}
+
+header {
+        padding: 30px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+      }
+
+.box {
+    width: fit-content;
+    height: fit-content;
+    flex: 0% 0% 50% 0%;
+    flex-direction: column;
+    border: 2px dashed white;
+    display: inline-block;
+    margin: 10px;
+ }
+
+.categories {
+    border: 2px solid white;
+    display: flex;
+    text-align: center;
+}
